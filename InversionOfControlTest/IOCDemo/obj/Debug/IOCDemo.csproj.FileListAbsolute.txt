@@ -1,0 +1,6 @@
+E:\Code\c#\.Net\InversionOfControlTest\IOCDemo\bin\Debug\IOCDemo.exe.config
+E:\Code\c#\.Net\InversionOfControlTest\IOCDemo\bin\Debug\IOCDemo.exe
+E:\Code\c#\.Net\InversionOfControlTest\IOCDemo\bin\Debug\IOCDemo.pdb
+E:\Code\c#\.Net\InversionOfControlTest\IOCDemo\obj\Debug\IOCDemo.csprojResolveAssemblyReference.cache
+E:\Code\c#\.Net\InversionOfControlTest\IOCDemo\obj\Debug\IOCDemo.exe
+E:\Code\c#\.Net\InversionOfControlTest\IOCDemo\obj\Debug\IOCDemo.pdb
