@@ -1,0 +1,5 @@
+E:\Code\CityLMS_Using\Test_XN\NamePipeTest\PipeClient\bin\Debug\PipeClient.exe.config
+E:\Code\CityLMS_Using\Test_XN\NamePipeTest\PipeClient\bin\Debug\PipeClient.exe
+E:\Code\CityLMS_Using\Test_XN\NamePipeTest\PipeClient\bin\Debug\PipeClient.pdb
+E:\Code\CityLMS_Using\Test_XN\NamePipeTest\PipeClient\obj\Debug\PipeClient.exe
+E:\Code\CityLMS_Using\Test_XN\NamePipeTest\PipeClient\obj\Debug\PipeClient.pdb
