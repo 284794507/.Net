@@ -1,0 +1,7 @@
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Release\AspectFDemo.exe.config
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Release\AspectFDemo.exe
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Release\AspectFDemo.pdb
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Release\System.Database.dll
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Release\System.Database.xml
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\obj\Release\AspectFDemo.exe
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\obj\Release\AspectFDemo.pdb

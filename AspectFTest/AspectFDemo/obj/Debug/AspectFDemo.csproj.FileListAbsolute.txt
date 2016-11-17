@@ -1,0 +1,8 @@
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Debug\AspectFDemo.exe.config
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Debug\AspectFDemo.exe
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Debug\AspectFDemo.pdb
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Debug\System.Database.dll
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\bin\Debug\System.Database.xml
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\obj\Debug\AspectFDemo.csprojResolveAssemblyReference.cache
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\obj\Debug\AspectFDemo.exe
+E:\Code\c#\.Net\AspectFTest\AspectFDemo\obj\Debug\AspectFDemo.pdb
