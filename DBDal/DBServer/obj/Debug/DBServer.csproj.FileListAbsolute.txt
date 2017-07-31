@@ -1,0 +1,8 @@
+E:\Code\c#\.Net\DBDal\DBServer\bin\Debug\DBServer.dll.config
+E:\Code\c#\.Net\DBDal\DBServer\bin\Debug\DBServer.dll
+E:\Code\c#\.Net\DBDal\DBServer\bin\Debug\DBServer.pdb
+E:\Code\c#\.Net\DBDal\DBServer\bin\Debug\Dapper.dll
+E:\Code\c#\.Net\DBDal\DBServer\bin\Debug\Dapper.xml
+E:\Code\c#\.Net\DBDal\DBServer\obj\Debug\DBServer.dll
+E:\Code\c#\.Net\DBDal\DBServer\obj\Debug\DBServer.pdb
+E:\Code\c#\.Net\DBDal\DBServer\obj\Debug\DBServer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,2 @@
+"WcfTest.exe" -i
+pause

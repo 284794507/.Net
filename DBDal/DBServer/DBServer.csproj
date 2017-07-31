@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B552F280-E2C1-415C-8C85-3AD60270A2A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DBServer</RootNamespace>
+    <AssemblyName>DBServer</AssemblyName>
+    <ProjectTypeGuids>{3D9AD99F-2412-4246-B90B-4EAA41C64699};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <StartArguments>/client:"WcfTestClient.exe"</StartArguments>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <XsdCodeGenEnabled>True</XsdCodeGenEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\SqlServerHandler.cs" />
+    <Compile Include="DBSvr.cs" />
+    <Compile Include="IDBSvr.cs" />
+    <Compile Include="IService1.cs" />
+    <Compile Include="Model\tAICfg.cs" />
+    <Compile Include="Model\tAIStatus.cs" />
+    <Compile Include="Model\tBoardCfg.cs" />
+    <Compile Include="Model\tCabInfo.cs" />
+    <Compile Include="Model\tCTUBasicInfo.cs" />
+    <Compile Include="Model\tCTUChaDoCfg.cs" />
+    <Compile Include="Model\tCTUChCurStatus.cs" />
+    <Compile Include="Model\tCTUChOptChangeHis.cs" />
+    <Compile Include="Model\tCTUInfo.cs" />
+    <Compile Include="Model\tCTUOCDayCfg.cs" />
+    <Compile Include="Model\tCTUOCTodayCfg.cs" />
+    <Compile Include="Model\tCTUOperationRec.cs" />
+    <Compile Include="Model\tCTUPowerSaveCfg.cs" />
+    <Compile Include="Model\tCTUTaskLog.cs" />
+    <Compile Include="Model\tCTUTmpCtrlCfg.cs" />
+    <Compile Include="Model\tCTUWeek.cs" />
+    <Compile Include="Model\tDICfg.cs" />
+    <Compile Include="Model\tDIStatus.cs" />
+    <Compile Include="Model\tDOStatus.cs" />
+    <Compile Include="Model\tEventRecord.cs" />
+    <Compile Include="Model\tLampAutoRunCfg.cs" />
+    <Compile Include="Model\tLampCtrlModeCfg.cs" />
+    <Compile Include="Model\tLampGrpCfg.cs" />
+    <Compile Include="Model\tLampGrpCtrlModeCfg.cs" />
+    <Compile Include="Model\tLampHisDataRec.cs" />
+    <Compile Include="Model\tLampInfo.cs" />
+    <Compile Include="Model\tLampNewStatus.cs" />
+    <Compile Include="Model\tLampPowerConDatum.cs" />
+    <Compile Include="Model\tLampStatus.cs" />
+    <Compile Include="Model\tLampStatusChangeRec.cs" />
+    <Compile Include="Model\tLampTmpCtrlCfg.cs" />
+    <Compile Include="Model\tLampWeekCtrlCfg.cs" />
+    <Compile Include="Model\tOutLineCfg.cs" />
+    <Compile Include="Model\tOutLineCurDataRec.cs" />
+    <Compile Include="Model\tOutLineHisDataRec.cs" />
+    <Compile Include="Model\TPlatFormInfo.cs" />
+    <Compile Include="Model\TPLCollectorInfo.cs" />
+    <Compile Include="Model\TPLConcentratorInfo.cs" />
+    <Compile Include="Model\TPLDataRecHIS.cs" />
+    <Compile Include="Model\TPLDataRecRTM.cs" />
+    <Compile Include="Model\TPLMacWithNum.cs" />
+    <Compile Include="Model\tPTUChangeHis.cs" />
+    <Compile Include="Model\tPTUChLampCfg.cs" />
+    <Compile Include="Model\tPTUCurDataRec.cs" />
+    <Compile Include="Model\tPTUDayCommStat.cs" />
+    <Compile Include="Model\tPTUDayCommStatHis.cs" />
+    <Compile Include="Model\tPTUFinded.cs" />
+    <Compile Include="Model\tPTUGrpCfg.cs" />
+    <Compile Include="Model\tPTUGrpOptRec.cs" />
+    <Compile Include="Model\tPTUInfo.cs" />
+    <Compile Include="Model\tPTUOptRec.cs" />
+    <Compile Include="Model\tPTURouteRec.cs" />
+    <Compile Include="Model\tPTUTraDatum.cs" />
+    <Compile Include="Model\tPTUWorkDealInfo.cs" />
+    <Compile Include="Model\tSysRunStatus.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service1.cs" />
+    <Compile Include="Utility\Share.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interface\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VSToolsPath Condition="'$(VSToolsPath)' == '' and '$(VisualStudioVersion)' != '' and '$(VisualStudioVersion)' != '11.0'">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio</VSToolsPath>
+    <WcfServiceModelTargetPath>$(VSToolsPath)\WCF</WcfServiceModelTargetPath>
+  </PropertyGroup>
+  <Import Project="$(WcfServiceModelTargetPath)\Microsoft.VisualStudio.ServiceModel.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{3D9AD99F-2412-4246-B90B-4EAA41C64699}">
+        <WcfProjectProperties>
+          <AutoStart>True</AutoStart>
+        </WcfProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

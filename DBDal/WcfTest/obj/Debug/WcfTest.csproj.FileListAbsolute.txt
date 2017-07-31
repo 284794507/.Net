@@ -1,0 +1,10 @@
+E:\Code\c#\.Net\DBDal\WcfTest\bin\Debug\WcfTest.exe.config
+E:\Code\c#\.Net\DBDal\WcfTest\bin\Debug\WcfTest.exe
+E:\Code\c#\.Net\DBDal\WcfTest\bin\Debug\WcfTest.pdb
+E:\Code\c#\.Net\DBDal\WcfTest\obj\Debug\WcfTest.csprojResolveAssemblyReference.cache
+E:\Code\c#\.Net\DBDal\WcfTest\obj\Debug\WcfTest.exe
+E:\Code\c#\.Net\DBDal\WcfTest\obj\Debug\WcfTest.pdb
+E:\Code\c#\.Net\DBDal\WcfTest\bin\Debug\Dapper.dll
+E:\Code\c#\.Net\DBDal\WcfTest\bin\Debug\Dapper.xml
+E:\Code\c#\.Net\DBDal\WcfTest\bin\Debug\DBServer.dll
+E:\Code\c#\.Net\DBDal\WcfTest\bin\Debug\DBServer.pdb

@@ -174,7 +174,14 @@ public static class AspectExtensions
         return aspects.Combine((work) =>
             Retry(0, 0, (error) => DoNothing(error), DoNothing, work));
     }
-    
+
+    [DebuggerStepThrough]
+    public static AspectF Retry(this AspectF aspects, Action<Exception> errorHandler)
+    {
+        return aspects.Combine((work) =>
+            Retry(0, 0, (error) => errorHandler(error), DoNothing, work));
+    }
+
     [DebuggerStepThrough]
     public static void Retry(int retryDuration, int retryCount, Action<Exception> errorHandler, Action retryFaild, Action work)
     {

@@ -1,0 +1,12 @@
+E:\Code\c#\.Net\DBDal\WcfService\bin\Debug\WcfService.exe.config
+E:\Code\c#\.Net\DBDal\WcfService\bin\Debug\WcfService.exe
+E:\Code\c#\.Net\DBDal\WcfService\bin\Debug\WcfService.pdb
+E:\Code\c#\.Net\DBDal\WcfService\bin\Debug\DBServer.dll
+E:\Code\c#\.Net\DBDal\WcfService\bin\Debug\Dapper.dll
+E:\Code\c#\.Net\DBDal\WcfService\bin\Debug\DBServer.pdb
+E:\Code\c#\.Net\DBDal\WcfService\bin\Debug\Dapper.xml
+E:\Code\c#\.Net\DBDal\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+E:\Code\c#\.Net\DBDal\WcfService\obj\Debug\WcfService.ProjectInstaller.resources
+E:\Code\c#\.Net\DBDal\WcfService\obj\Debug\WcfService.csproj.GenerateResource.Cache
+E:\Code\c#\.Net\DBDal\WcfService\obj\Debug\WcfService.exe
+E:\Code\c#\.Net\DBDal\WcfService\obj\Debug\WcfService.pdb

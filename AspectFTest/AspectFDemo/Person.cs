@@ -22,18 +22,25 @@ namespace AspectFDemo
 
         public void Run()
         {
+            int i = 0;
             Dictionary<string, string> dictTmp = null;
             AspectF.Define.Log(this.WriterLog, "开始跑步......", "跑步结束。")
-                .Retry()
+                .Retry((Exception ex)=>
+                {
+                    Console.WriteLine(ex.Message);
+                    i = 2;
+                })
                 .MustBeNonNull(dictTmp)
                 .Do(() =>
                 {
                     Console.WriteLine(this.Name + "is running!");
                     Thread.Sleep(1000);
                     int[] arr = new int[0];
-                    arr[0]= 1;
-                    arr[1]= 2;
+                    //arr[0]= 1;
+                    //arr[1]= 2;
                 });
+
+            Console.WriteLine(i);
         }
     }
 }
